@@ -1,0 +1,53 @@
+window#waybar {
+    background: none;
+    font-family: Fantasque Mono ;
+    font-weight: bold;
+    font-size: 15;
+}
+
+window > box {
+    border-radius: 13px;
+    border: 3px solid #212120;
+    background: rgba(11, 10, 16, 1);
+    opacity: 1;
+}
+
+#workspaces {
+    margin: 6px 6px 6px 6px;
+  border-radius: 50px;
+  background-color: #4c566a;
+  font-size: 12px;    
+}
+
+#workspaces button {
+  color: #d8dee9;
+  padding: 6px 6px 6px 6px;
+}
+
+#workspaces button:hover {
+   box-shadow: inherit;
+    text-shadow: inherit;
+    background: transparent;
+    border: transparent;
+}
+
+#clock {
+    color: #e97193;
+    font-size: 1.2em;
+    margin: 10px 10px 10px 10px;
+}
+
+#custom-sep {
+    color: #548650;
+    margin: 0px 0px 8px 0px;
+}
+
+#pulseaudio, #temperature, #network {
+    color: #565480;
+    margin-bottom: 8px;
+}
+
+
+#network {
+    margin-bottom: 10px;
+}
